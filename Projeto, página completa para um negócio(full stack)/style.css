@@ -1,0 +1,390 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f775123b;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #f775123b;
+}
+::-webkit-scrollbar-thumb {
+    background: #F77712;
+    
+}
+
+
+
+.header {
+     /* para não aparecer barra de rolagem */
+    overflow: hidden;
+    margin: auto;
+    background-color: #F77712;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+
+@font-face {
+    font-family: Bubble;
+    src: url(./font-family/BubbleBobble-MVpLp.otf);
+    src: url(./font-family/BubbleBobble-rg3rx.ttf);
+    
+}
+@font-face {
+    font-family: Chopsic;
+    src: url(./font-family/Chopsic-K6Dp.ttf);
+}
+
+@font-face {
+    font-family: Astro;
+    src: url(./font-family/AstroSpace-0Wl3o.otf);
+    src: url(./font-family/AstroSpace-eZ2Bg.ttf);
+}
+
+
+.logo {
+    font-family: Astro;
+    font-size: 1.2em;
+    float: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+
+.menu {
+    font-size: 1em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+.menu :hover {
+    box-shadow: 0 1px 0 #eeeeee9d;
+    }
+
+li {
+    
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    
+}
+
+
+
+.banner {
+
+    width: 100%;
+    
+
+}
+
+.title {
+    text-align: center;
+    color: #F77712;
+    font-size: 1.5em;
+}
+
+.sub-title {
+    text-align: center;
+    color: white;
+    font-size: 1.2em ;
+
+}
+
+.p-1 {
+    text-align: center;
+    color: white;
+
+}
+
+.p-2 {
+ 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.img-seta {
+
+    padding: 10px;
+    width: 50px;
+    
+    
+
+}
+
+.box-camp-back {
+    
+    border-style:hidden;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #1A1A1A;
+    
+    
+
+}
+
+
+
+.t-1-2 {
+
+    color: #F77712 ;
+
+}
+
+.t-1-3 {
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.box-pedro {
+    
+    
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+   
+    text-align: center;
+
+}
+
+.t-2-1 {
+
+    color: #F77712;
+
+}
+
+.box-mercado {
+
+    color: aliceblue;
+    border-style:hidden;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #1A1A1A;
+
+
+}
+
+
+.mercado-texto {
+
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+   
+    text-align: center;
+
+
+}
+
+
+.t-3-1 {
+
+    color: #F77712;
+    font-weight: bold;
+
+}
+
+
+.missao {
+
+    color: aliceblue;
+    border-style:hidden;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #1A1A1A;
+    
+}
+
+.title-missao {
+
+    color: #F77712;
+    font-weight: bold;
+
+}
+
+
+.t-camp-wars {
+
+   
+    color: #F77712;
+    font-weight: bold;
+
+
+}
+
+.t-camp-wars-2 {
+
+    
+    color: white;
+    font-weight: bold;
+
+}
+
+.box-form {
+
+    padding: 100px;
+
+}
+
+#form {
+
+    
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+
+.t-form-1 {
+
+    color:  #F77712 ;
+    text-align: center;
+
+}
+
+.input {
+
+    color: thistle;
+    
+
+}
+
+input {
+   
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    background-color: #F77712;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+}
+
+input[type="text"]{
+
+    width: 100%;
+
+}
+input[type="email"]{
+
+    width: 100%;
+
+}
+
+.t-form {
+
+    
+    color:white ;
+   
+
+}
+
+footer{
+
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+
+}
+
+a {
+
+    text-decoration:none;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .menu :hover {
+        background-color: rgba(255, 255, 255, 0.288);
+        }
+
+    .menu {
+        float: none;
+        text-align: center;
+    }
+    li {
+        display:block;
+        float: none;
+        margin-top: 5px;
+        padding: 10px;
+        border: solid;
+
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 777px){
+
+    input[type="submit"] {
+        cursor: pointer;
+        padding: 20px;
+        color: white;
+        background-color: #F77712;
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    .box-form {
+
+        padding: 10px;
+        
+    
+    }
+
+    
+        
+
+
+}
